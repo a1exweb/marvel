@@ -1,0 +1,73 @@
+@-webkit-keyframes animate-circle {
+    from {
+        transform: scale(0);
+        opacity: 1;
+    }
+    to {
+        transform: scale(1);
+        opacity: 0;
+    }
+}
+
+@keyframes animate-circle {
+    from {
+        transform: scale(0);
+        opacity: 1;
+    }
+    to {
+        transform: scale(1);
+        opacity: 0;
+    }
+}
+
+.loader-wrap {
+    background: #A53860;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: fixed;
+    z-index: 999;
+}
+
+.loader {
+    --size: 10rem;
+    
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    height: var(--size);
+    width: var(--size);
+    transform: translateX(-50%) translateY(-50%);
+    z-index: 999;
+}
+
+.loader > .circle {
+        --duration: 2s;
+        
+        position: absolute;
+        height: inherit;
+        width: inherit;
+        background: #FFA5AB;
+        border-radius: 50%;
+        -webkit-animation: animate-circle var(--duration) cubic-bezier(.9,.24,.62,.79) infinite;
+                animation: animate-circle var(--duration) cubic-bezier(.9,.24,.62,.79) infinite;
+    }
+
+.loader > .circle:nth-of-type(1) {
+            -webkit-animation-delay: 0;
+                    animation-delay: 0;
+        }
+
+.loader > .circle:nth-of-type(2) {
+            -webkit-animation-delay: calc(var(--duration) / -3);
+                    animation-delay: calc(var(--duration) / -3);
+        }
+
+.loader > .circle:nth-of-type(3) {
+            -webkit-animation-delay: calc(var(--duration) / -6);
+                    animation-delay: calc(var(--duration) / -6);
+        }
+.loaded {
+    display: none;
+}

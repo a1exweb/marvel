@@ -1,0 +1,194 @@
+body
+    font-family: sans-serif
+::-webkit-scrollbar-track
+    background-color: #F5F5F5
+::-webkit-scrollbar
+    width: 10px
+    background-color: #F5F5F5
+::-webkit-scrollbar-thumb
+    background-color: red
+html
+    box-sizing: border-box
+*, *:after, *:before
+    box-sizing: inherit
+button
+    cursor: pointer
+h1
+    text-align: center
+    span
+        text-transform: uppercase
+        background-color: red
+        color: #fff
+        padding: 2px 5px
+.select
+    margin: 0 auto
+    position: relative
+    max-width: 450px
+    width: 100%
+    margin-bottom: 30px
+    &.is-active .select__body
+        display: block
+    &__header
+        border: 1px solid #eee
+        cursor: pointer
+        display: flex
+        font-size: 18px
+        line-height: 24px
+        padding: 8px
+        border-radius: 7px
+    &__body
+        height: 350px
+        border: 1px solid #eee
+        border-top: 0
+        display: none
+        left: 0
+        position: absolute
+        right: 0
+        top: 86%
+        z-index: 20
+        background-color: #fff
+        overflow-y: scroll
+    &__item
+        cursor: pointer
+        font-size: 16px
+        line-height: 24px
+        padding: 8px
+    &__item:hover
+        background-color: rgba(98, 89, 148, 0.151)
+    &__btn
+        display: block
+        width: 50px
+        height: 29px
+        position: absolute
+        right: 10px
+        top: 6px
+    &__btn span, &__btn span::after, &__btn span::before
+        position: absolute
+        top: 50%
+        margin-top: -1px
+        left: 50%
+        margin-left: -10px
+        width: 20px
+        height: 2px
+        background-color: #222
+    &__btn span::after,
+    &__btn span::before
+        content: ''
+        display: block
+        transition: 0.2s
+    &__btn span::before
+        transform: translateY(-5px)
+    &__btn span::after
+        transform: translateY(5px)
+    &__btn_active span
+        height: 0
+    &__btn_active span:before
+        transform: rotate(45deg)
+    &__btn_active span:after
+        transform: rotate(-45deg)
+.card
+    position: relative
+    width: 300px
+    height: 400px
+    transform-style: preserve-3d
+    transition: .7s linear
+    text-decoration: none
+    &-wrap
+        text-align: center
+        width: 300px
+        margin: 5px
+        perspective: 1200
+        transform-style: preserve-3d
+        text-decoration: none
+        &:hover .card
+            transform: rotateY(180deg)
+    &__title
+        color: #fff
+    .front
+        position: relative
+        text-decoration: none
+        flex-basis: 300px
+        height: 400px
+        background: #ccc
+        background-repeat: no-repeat
+        background-position: center center
+        background-size: cover
+        display: flex
+        justify-content: center
+        align-items: flex-end
+        border-radius: 5px
+        overflow: hidden
+        border: 3px solid #eee
+        z-index: 2
+        transform: rotateY(0deg)
+        &::after
+            content: ''
+            position: absolute
+            left: 0
+            bottom: 0
+            right: 0
+            height: 100px
+            background: rgba(#000, .7)
+            z-index: -1
+    .front, .back
+        box-sizing: border-box
+        font-family: 'Cabin', sans-serif
+        position: absolute
+        top: 0
+        left: 0
+        padding: 40px 20px 20px
+        width: 100%
+        height: 100%
+        backface-visibility: hidden
+        border-radius: 5px
+    .back
+        transform: rotateY(-180deg)
+        background: #491010
+        color: white
+        position: relative
+        border-radius: 5px
+        &::after
+            content: ''
+            position: absolute
+            top: 0
+            left: 0
+            bottom: 0
+            right: 0
+            background: rgba(#000, .7)
+            z-index: -1
+            border-radius: 5px
+        &-wrap
+            z-index: 99
+            text-align: left
+            height: 320px
+            overflow-y: auto
+            padding-right: 10px
+            span
+                display: block
+                font-size: 14px
+            b
+                color: #ccb6b6
+                opacity: .9
+                margin-bottom: 2px
+                font-size: 12px
+.cards 
+    display: flex
+    flex-wrap: wrap
+    justify-content: center
+    margin: auto
+    padding: 180px
+.menu
+    position: fixed
+    top: 0
+    left: 0
+    width: 100%
+    z-index: 99
+    background-color: #fff
+
+@media (max-width: 1050px)
+    .cards
+        padding: 0
+        padding-top: 130px
+@media (max-width: 675px)
+    .select
+        max-width: 300px
