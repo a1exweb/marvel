@@ -154,7 +154,6 @@ window.addEventListener('DOMContentLoaded', () => {
         );
     };
 
-
     getData()
         .then(response => response.json())
         .then(data => {
