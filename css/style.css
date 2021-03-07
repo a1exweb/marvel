@@ -180,12 +180,25 @@ h1 span {
           perspective: 1200;
   -webkit-transform-style: preserve-3d;
           transform-style: preserve-3d;
-  cursor: pointer;
 }
 
 .card-wrap:hover .card {
   -webkit-transform: rotateY(180deg);
           transform: rotateY(180deg);
+}
+
+.card-wrap a {
+  display: block;
+  color: #fff;
+  text-decoration: none;
+  -webkit-transition: 0.5s;
+  -o-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.card-wrap a:hover {
+  color: #ccb6b6;
+  margin-left: 3px;
 }
 
 .card__title {
@@ -255,7 +268,6 @@ h1 span {
 .card .back {
   -webkit-transform: rotateY(-180deg);
           transform: rotateY(-180deg);
-  background: #491010;
   color: white;
   position: relative;
   -webkit-border-radius: 5px;

@@ -11,7 +11,8 @@
     "movies": [
       "Doctor Strange",
       "Avengers: Endgame"
-    ]
+    ],
+    "link": "https://en.wikipedia.org/wiki/Ancient_One"
   },
   {
     "name": "Ant-Man",
@@ -27,7 +28,8 @@
       "Captain America: Civil War",
       "Ant-Man and the Wasp",
       "Avengers: Endgame"
-    ]
+    ],
+    "link": "https://en.wikipedia.org/wiki/Ant-Man"
   },
   {
     "name": "Black Panther",
@@ -43,7 +45,8 @@
       "Black Panther",
       "Avengers: Infinity War",
       "Avengers: Endgame"
-    ]
+    ],
+    "link": "https://en.wikipedia.org/wiki/Black_Panther_(character)"
   },
   {
     "name": "Black Widow",
@@ -64,7 +67,8 @@
       "Captain America: Civil War",
       "Avengers: Infinity War",
       "Avengers: Endgame"
-    ]
+    ],
+    "link": "https://en.wikipedia.org/wiki/Black_Widow_(Marvel_Comics)"
   },
   {
     "name": "Captain America",
@@ -84,7 +88,8 @@
       "Captain America: Civil War",
       "Avengers: Infinity War",
       "Avengers: Endgame"
-    ]
+    ],
+    "link": "https://en.wikipedia.org/wiki/Captain_America"
   },
   {
     "name": "Captain Marvel",
@@ -98,7 +103,8 @@
     "movies": [
       "Captain Marvel",
       "Avengers: Endgame"
-    ]
+    ],
+    "link": "https://en.wikipedia.org/wiki/Captain_Marvel_(Marvel_Comics)"
   },
   {
     "name": "Daredevil",
@@ -108,7 +114,8 @@
     "gender": "male",
     "status": "alive",
     "actors": "Charlie Cox",
-    "photo": "dbimage/Daredevil_S3_Textless_Poster03.jpg"
+    "photo": "dbimage/Daredevil_S3_Textless_Poster03.jpg",
+    "link": "https://en.wikipedia.org/wiki/Daredevil_(Marvel_Comics_character)"
   },
   {
     "name": "Doctor Strange",
@@ -124,7 +131,8 @@
       "Thor: Ragnarok",
       "Avengers: Infinity War",
       "Avengers: Endgame"
-    ]
+    ],
+    "link": "https://en.wikipedia.org/wiki/Doctor_Strange"
   },
   {
     "name": "Drax the Destroyer",
@@ -133,7 +141,8 @@
     "gender": "male",
     "status": "alive",
     "actors": "Dave Bautista",
-    "photo": "dbimage/Drax_AIW_Profile.jpg"
+    "photo": "dbimage/Drax_AIW_Profile.jpg",
+    "link": "https://en.wikipedia.org/wiki/Drax_the_Destroyer"
   },
   {
     "name": "Dum Dum Dugan",
@@ -148,7 +157,8 @@
     "movies": [
       "Captain America: The First Avenger",
       "The Avengers"
-    ]
+    ],
+    "link": "https://en.wikipedia.org/wiki/Dum_Dum_Dugan"
   },
   {
     "name": "Edwin Jarvis",
@@ -161,7 +171,8 @@
     "photo": "dbimage/Agent_Carter_Season_2_Promo_02.jpg",
     "movies": [
       "Avengers: Endgame"
-    ]
+    ],
+    "link": "https://en.wikipedia.org/wiki/Edwin_Jarvis"
   },
   {
     "name": "Ego",
@@ -174,7 +185,8 @@
     "photo": "dbimage/Ego_Profile%281%29.png",
     "movies": [
       "Guardians of the Galaxy Vol. 2"
-    ]
+    ],
+    "link": "https://en.wikipedia.org/wiki/Ego_the_Living_Planet"
   },
   {
     "name": "Executioner",
@@ -188,7 +200,8 @@
     "photo": "dbimage/Skurgetheexecutionerprofile.png",
     "movies": [
       "Thor: Ragnarok"
-    ]
+    ],
+    "link": "https://en.wikipedia.org/wiki/Executioner_(character)"
   },
   {
     "name": "Falcon",
@@ -206,7 +219,8 @@
       "Captain America: Civil War",
       "Avengers: Infinity War",
       "Avengers: Endgame"
-    ]
+    ],
+    "link": "https://en.wikipedia.org/wiki/Falcon_(comics)"
   },
   {
     "name": "Gamora",
@@ -221,7 +235,8 @@
       "Guardians of the Galaxy Vol. 2",
       "Avengers: Infinity War",
       "Avengers: Endgame"
-    ]
+    ],
+    "link": "https://en.wikipedia.org/wiki/Gamora"
   },
   {
     "name": "Groot",
@@ -237,7 +252,8 @@
       "Guardians of the Galaxy Vol. 2",
       "Avengers: Infinity War",
       "Avengers: Endgame"
-    ]
+    ],
+    "link": "https://en.wikipedia.org/wiki/Groot"
   },
   {
     "name": "Hank Pym",
@@ -252,7 +268,8 @@
       "Ant-Man",
       "Ant-Man and the Wasp",
       "Avengers: Endgame"
-    ]
+    ],
+    "link": "https://en.wikipedia.org/wiki/Hank_Pym"
   },
   {
     "name": "Hawkeye",
@@ -269,7 +286,8 @@
       "Avengers: Age of Ultron",
       "Captain America: Civil War",
       "Avengers: Endgame"
-    ]
+    ],
+    "link": "https://en.wikipedia.org/wiki/Hawkeye"
   },
   {
     "name": "Heimdall",
@@ -286,7 +304,8 @@
       "Thor: The Dark World",
       "Thor: Ragnarok",
       "Avengers: Infinity War"
-    ]
+    ],
+    "link": "https://en.wikipedia.org/wiki/Heimdall_(comics)"
   },
   {
     "name": "Hela",
@@ -300,7 +319,8 @@
     "photo": "dbimage/Thor_Ragnarok_Textless_Character_Posters_01.jpg",
     "movies": [
       "Thor: Ragnarok"
-    ]
+    ],
+    "link": "https://en.wikipedia.org/wiki/Hela_(character)"
   },
   {
     "name": "Helmut Zemo",
@@ -313,7 +333,8 @@
     "photo": "dbimage/HelmutZemo-Masked.jpg",
     "movies": [
       "Captain America: Civil War"
-    ]
+    ],
+    "link": "https://en.wikipedia.org/wiki/Helmut_Zemo"
   },
   {
     "name": "Hulk",
@@ -332,7 +353,8 @@
       "Thor: Ragnarok",
       "Avengers: Infinity War",
       "Avengers: Endgame"
-    ]
+    ],
+    "link": "https://en.wikipedia.org/wiki/Hulk"
   },
   {
     "name": "Iron Man",
@@ -354,7 +376,8 @@
       "Spider-Man: Homecoming",
       "Avengers: Infinity War",
       "Avengers: Endgame"
-    ]
+    ],
+    "link": "https://en.wikipedia.org/wiki/Iron_Man"
   },
   {
     "name": "Jane Foster",
@@ -369,7 +392,8 @@
       "Thor",
       "Thor: The Dark World",
       "Avengers: Endgame"
-    ]
+    ],
+    "link": "https://en.wikipedia.org/wiki/Jane_Foster"
   },
   {
     "name": "Korg",
@@ -383,7 +407,8 @@
     "movies": [
       "Thor: Ragnarok",
       "Avengers: Endgame"
-    ]
+    ],
+    "link": "https://en.wikipedia.org/wiki/Korg_(character)"
   },
   {
     "name": "Loki",
@@ -403,7 +428,8 @@
       "Thor: Ragnarok",
       "Avengers: Infinity War",
       "Avengers: Endgame"
-    ]
+    ],
+    "link": "https://en.wikipedia.org/wiki/Loki_(comics)"
   },
   {
     "name": "M'Baku",
@@ -418,7 +444,8 @@
       "Black Panther",
       "Avengers: Infinity War",
       "Avengers: Endgame"
-    ]
+    ],
+    "link": "https://en.wikipedia.org/wiki/Man-Ape"
   },
   {
     "name": "Mantis",
@@ -431,7 +458,8 @@
       "Guardians of the Galaxy Vol. 2",
       "Avengers: Infinity War",
       "Avengers: Endgame"
-    ]
+    ],
+    "link": "https://en.wikipedia.org/wiki/Mantis_(Marvel_Comics)"
   },
   {
     "name": "Mysterio",
@@ -445,7 +473,8 @@
     "photo": "dbimage/Mysterio-ChinesePromotional.png",
     "movies": [
       "Spider-Man: Far From Home"
-    ]
+    ],
+    "link": "https://en.wikipedia.org/wiki/Mysterio"
   },
   {
     "name": "Odin",
@@ -461,7 +490,8 @@
       "Thor",
       "Thor: The Dark World",
       "Thor: Ragnarok "
-    ]
+    ],
+    "link": "https://en.wikipedia.org/wiki/Odin_(character)"
   },
   {
     "name": "Peggy Carter",
@@ -478,7 +508,8 @@
       "Captain America: The First Avenger",
       "Captain America: The Winter Soldier",
       "Avengers: Endgame"
-    ]
+    ],
+    "link": "https://en.wikipedia.org/wiki/Peggy_Carter"
   },
   {
     "name": "Pepper Potts",
@@ -497,7 +528,8 @@
       "Spider-Man: Homecoming",
       "Avengers: Infinity War",
       "Avengers: Endgame"
-    ]
+    ],
+    "link": "https://en.wikipedia.org/wiki/Pepper_Potts"
   },
   {
     "name": "Phil Coulson",
@@ -516,7 +548,8 @@
       "Thor",
       "The Avengers",
       "Captain Marvel"
-    ]
+    ],
+    "link": "https://en.wikipedia.org/wiki/Phil_Coulson"
   },
   {
     "name": "Quicksilver",
@@ -529,7 +562,8 @@
     "photo": "dbimage/Qckslvr.jpg",
     "movies": [
       "Avengers: Age of Ultron"
-    ]
+    ],
+    "link": "https://en.wikipedia.org/wiki/Quicksilver_(Marvel_Comics)"
   },
   {
     "name": "Red Skull",
@@ -544,7 +578,8 @@
       "Captain America: The First Avenger",
       "Avengers: Infinity War",
       "Avengers: Endgame"
-    ]
+    ],
+    "link": "https://en.wikipedia.org/wiki/Red_Skull"
   },
   {
     "name": "Scarlet Witch",
@@ -560,7 +595,8 @@
       "Captain America: Civil War",
       "Avengers: Infinity War",
       "Avengers: Endgame"
-    ]
+    ],
+    "link": "https://en.wikipedia.org/wiki/Scarlet_Witch"
   },
   {
     "name": "Shuri",
@@ -575,7 +611,8 @@
       "Black Panther",
       "Avengers: Infinity War",
       "Avengers: Endgame"
-    ]
+    ],
+    "link": "https://en.wikipedia.org/wiki/Shuri_(character)"
   },
   {
     "name": "Sif",
@@ -589,7 +626,8 @@
     "movies": [
       "Thor",
       "Thor: The Dark World"
-    ]
+    ],
+    "link": "https://en.wikipedia.org/wiki/Sif_(character)"
   },
   {
     "name": "Spider-Man",
@@ -608,7 +646,8 @@
       "Avengers: Infinity War",
       "Avengers: Endgame",
       "Spider-Man: Far From Home"
-    ]
+    ],
+    "link": "https://en.wikipedia.org/wiki/Spider-Man"
   },
   {
     "name": "Star-Lord",
@@ -625,7 +664,8 @@
       "Guardians of the Galaxy Vol. 2",
       "Avengers: Infinity War",
       "Avengers: Endgame"
-    ]
+    ],
+    "link": "https://en.wikipedia.org/wiki/Star-Lord"
   },
   {
     "name": "Thanos",
@@ -642,7 +682,8 @@
       "Guardians of the Galaxy Vol. 2",
       "Avengers: Infinity War",
       "Avengers: Endgame"
-    ]
+    ],
+    "link": "https://en.wikipedia.org/wiki/Thanos"
   },
   {
     "name": "Thor",
@@ -662,7 +703,8 @@
       "Thor: Ragnarok",
       "Avengers: Infinity War",
       "Avengers: Endgame"
-    ]
+    ],
+    "link": "https://en.wikipedia.org/wiki/Thor_(Marvel_Comics)"
   },
   {
     "name": "Valkyrie",
@@ -676,7 +718,8 @@
     "movies": [
       "Thor: Ragnarok",
       "Avengers: Endgame"
-    ]
+    ],
+    "link": "https://en.wikipedia.org/wiki/Valkyrie_(Marvel_Comics)"
   },
   {
     "name": "Vision",
@@ -692,7 +735,8 @@
       "Avengers: Age of Ultron",
       "Captain America: Civil War",
       "Avengers: Infinity War"
-    ]
+    ],
+    "link": "https://en.wikipedia.org/wiki/Vision_(Marvel_Comics)"
   },
   {
     "name": "Vulture",
@@ -705,7 +749,8 @@
     "photo": "dbimage/Vulture.jpg",
     "movies": [
       "Spider-Man: Homecoming"
-    ]
+    ],
+    "link": "https://en.wikipedia.org/wiki/Vulture_(Marvel_Comics)"
   },
   {
     "name": "War Machine",
@@ -725,7 +770,8 @@
       "Captain America: Civil War",
       "Avengers: Infinity War",
       "Avengers: Endgame"
-    ]
+    ],
+    "link": "https://en.wikipedia.org/wiki/War_Machine"
   },
   {
     "name": "Wasp",
@@ -741,7 +787,8 @@
       "Ant-Man",
       "Ant-Man and the Wasp",
       "Avengers: Endgame"
-    ]
+    ],
+    "link": "https://en.wikipedia.org/wiki/Wasp_(character)"
   },
   {
     "name": "Winter Soldier",
@@ -759,7 +806,8 @@
       "Captain America: Civil War",
       "Avengers: Infinity War",
       "Avengers: Endgame"
-    ]
+    ],
+    "link": "https://en.wikipedia.org/wiki/Bucky_Barnes_(Marvel_Cinematic_Universe)"
   },
   {
     "name": "Wong",
@@ -774,7 +822,8 @@
       "Doctor Strange",
       "Avengers: Infinity War",
       "Avengers: Endgame"
-    ]
+    ],
+    "link": "https://en.wikipedia.org/wiki/Wong_(Marvel_Comics)"
   },
   {
     "name": "Yondu Udonta",
@@ -788,6 +837,7 @@
     "movies": [
       "Guardians of the Galaxy",
       "Guardians of the Galaxy Vol. 2"
-    ]
+    ],
+    "link": "https://en.wikipedia.org/wiki/Yondu"
   }
 ]

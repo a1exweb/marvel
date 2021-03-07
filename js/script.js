@@ -42,7 +42,7 @@ window.addEventListener('DOMContentLoaded', () => {
     </div>
     <div class="back" style="background-image: url('${item.photo}')">
         <div class="back-wrap">
-        <h2>${item.name}</h2>
+        <a href="${item.link}" target="_blank" rel="nofollow noopener"><h2>${item.name}</h2></a>
         ${item.realName ? `<span><b>Real name:</b> 
         ${item.realName}</span>` : ''}
 

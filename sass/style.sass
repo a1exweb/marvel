@@ -109,9 +109,16 @@ h1
         margin: 5px
         perspective: 1200
         transform-style: preserve-3d
-        cursor: pointer
         &:hover .card
             transform: rotateY(180deg)
+        a
+            display: block
+            color: #fff
+            text-decoration: none
+            transition: 0.5s
+            &:hover
+                color: #ccb6b6
+                margin-left: 3px
     &__title
         color: #fff
     .front
@@ -153,7 +160,6 @@ h1
         border-radius: 5px
     .back
         transform: rotateY(-180deg)
-        background: #491010
         color: white
         position: relative
         border-radius: 5px
