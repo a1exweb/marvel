@@ -180,7 +180,7 @@ h1 span {
           perspective: 1200;
   -webkit-transform-style: preserve-3d;
           transform-style: preserve-3d;
-  text-decoration: none;
+  cursor: pointer;
 }
 
 .card-wrap:hover .card {

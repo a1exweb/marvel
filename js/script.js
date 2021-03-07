@@ -35,7 +35,7 @@ window.addEventListener('DOMContentLoaded', () => {
                 cardWraper.insertAdjacentHTML(
                     'afterbegin',
                     `
-<a href="#" class="card-wrap">
+<div class="card-wrap">
     <div class="card">
     <div class="front" style="background-image: url('${item.photo}')">
     <h3 class="card__title">${item.name}</h3>
@@ -69,7 +69,7 @@ window.addEventListener('DOMContentLoaded', () => {
         </div>
     </div>
     </div>
-</a>
+</div>
 `
                 );
             });
