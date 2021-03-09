@@ -202,6 +202,14 @@ h1
     z-index: 99
     background-color: #fff
 
+@media (max-width: 1050px)
+    .cards
+        padding: 0
+        padding-top: 140px
+@media (max-width: 675px)
+    .select
+        max-width: 300px
+
 @function multiple-box-shadow ($n) 
     $value: '#{random(2000)}px #{random(2000)}px #FFF'
     @for $i from 2 through $n
