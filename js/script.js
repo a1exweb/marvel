@@ -162,4 +162,11 @@ window.addEventListener('DOMContentLoaded', () => {
             addCard(data);
         })
         .catch(err => console.log(err));
+    
+    document.querySelector('body').addEventListener('mousemove', e => {
+        const stars = document.querySelector('.stars');
+        let x = e.clientX / window.innerWidth;
+        let y = e.clientY / window.innerHeight;
+        stars.style.transform = 'translate(-' + x * 50 + 'px, -' + y * 50 + 'px)';
+    });
 });
